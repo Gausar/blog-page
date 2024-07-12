@@ -11,12 +11,6 @@
         "dest": "/app.js"
       }
     ],
-    "regions": ["iad1"],
-    "functions": {
-        "server/**/*.js": {
-        "memory": 1024,
-        "maxDuration": 60
-        }
-  }
+    "regions": ["iad1"]
   }
   
