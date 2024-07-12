@@ -1,5 +1,15 @@
 {
     "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node",
+        "config": {
+            "maxLambdaSize": "50mb",
+            "timeout": 60
+          }
+      }
+    ],
     "routes": [
       {
         "src": "/(.*)",
